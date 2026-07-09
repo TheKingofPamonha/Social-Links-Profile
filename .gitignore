@@ -1,0 +1,8 @@
+# Ignora arquivos de miniatura de imagens do Windows
+Thumbs.db
+
+# Ignora arquivos ocultos do Mac (caso alguém baixe seu projeto num Mac)
+.DS_Store
+
+# Ignora a pasta de configurações ocultas do VS Code
+.vscode/

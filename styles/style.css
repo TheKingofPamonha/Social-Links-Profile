@@ -11,3 +11,82 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--grey900);
+    color: var(--branco);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1.25rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey800);
+    width: 100%;
+    max-width: 24rem;
+    padding: 2.5rem;
+    align-items: center;
+    border-radius: 0.75rem;
+}
+
+.foto-perfil {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.perfil-nome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.perfil-cidade {
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
+    color: var(--verde);
+}
+
+.perfil-cargo {
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin-bottom: 1.25rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.link {
+    display: flex;
+    background-color: var(--grey700);
+    color: var(--branco);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:hover {
+    background-color: var(--verde);
+    color: var(--grey900);
+}

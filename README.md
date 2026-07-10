@@ -13,7 +13,7 @@ O objetivo principal deste projeto foi construir um cartão de links sociais, o 
 ### 🔗 Links
 
 - [**Live Site (Deploy):**](https://thekingofpamonha.github.io/Social-Links-Profile/)
-- [**Repositório:**](https://github.com/TheKingofPamonha/Social-Links-Profile)]
+- [**Repositório:**](https://github.com/TheKingofPamonha/Social-Links-Profile)
 
 ## 🛠️ Construído com
 
